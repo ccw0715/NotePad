@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.notepad.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"></android.support.v7.widget.Toolbar>
+    <Button
+        android:layout_width="128dp"
+        android:text="添加备忘"
+        android:onClick="addNote"
+        android:layout_height="56dp" />
+    <Button
+        android:layout_width="128dp"
+        android:text="查看时间轴"
+        android:onClick="look"
+        android:layout_height="56dp" />
+    <Button
+        android:layout_width="128dp"
+        android:text="..."
+        android:layout_height="56dp" />
+</LinearLayout>
